@@ -36,6 +36,6 @@ jobs:
                 "status": "pending",
                 "title": "CI/CD",
                 "when": "asap",
-                "machineName": "SGFv4oCZcyBNYWNCb29rIFBybw=="
+                "machineName": "U2ltdWxhcuKAmXMgTWFjIG1pbmk="
             }'
         
