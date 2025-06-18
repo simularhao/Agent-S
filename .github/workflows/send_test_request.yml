@@ -31,7 +31,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "Authorization: Bearer ${{secrets.USER_TOKEN}}" \
             -d '{
-                "requireConfirm": false,
+                "requireConfirm": true,
                 "run": "jsAction_OaQgphcCVB07zbYcpg1g(branchName:\"${{ github.head_ref }}\")_spaceID__community",
                 "status": "pending",
                 "title": "CI/CD",
